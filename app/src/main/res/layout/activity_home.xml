@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRed"
+    tools:context="com.ziviello.MyListView.HomeActivity">
+
+
+    <Button
+        android:id="@+id/buttonSvuota"
+        android:layout_width="95dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="@color/colorWhite"
+        android:text="SVUOTA"
+        android:textColor="@color/colorRed"
+        app:layout_constraintStart_toEndOf="@+id/buttonAggiungi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="360dp"
+        android:layout_height="564dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="216dp"
+        android:layout_height="72dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="LISTA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAggiungi"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="@color/colorWhite"
+        android:text="+"
+        android:textColor="@color/colorRed"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
