@@ -93,10 +93,8 @@ public class HomeActivity extends AppCompatActivity {
         };
 
         public void OnClickRow(View view){
-
-                Intent openVisualizza = new Intent(HomeActivity.this, VisualizzaActivity.class);
-                startActivity(openVisualizza);
-
+           Intent openVisualizza = new Intent(HomeActivity.this, VisualizzaActivity.class);
+           startActivity(openVisualizza);
         }
 //*****************************************************************************************************************************************************
 }

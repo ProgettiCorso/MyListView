@@ -1,7 +1,7 @@
 package com.ziviello.MyListView;
 
 /**
- * Created by aesys on 14/11/17.
+ * Created by Fabio Ziviello on 14/11/17.
  */
 
 public class ElementoLista {

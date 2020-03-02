@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Globals{
     private static Globals instance;
-    ArrayList<String[]> list = new ArrayList<>();
+    ArrayList<String[]> list;
     private int k;
     String[] STRING = new String[]{};
     public void setK(int d) {

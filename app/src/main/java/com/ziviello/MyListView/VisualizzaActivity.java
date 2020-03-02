@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 /**
- * Created by aesys on 16/11/17.
+ * Created by Fabio Ziviello on 16/11/17.
  */
 
 public class VisualizzaActivity extends AppCompatActivity {

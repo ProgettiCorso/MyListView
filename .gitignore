@@ -13,6 +13,9 @@ bin/
 gen/
 out/
 
+#MAC
+*.DS_Store
+
 # Gradle files
 .gradle/
 build/
@@ -34,9 +37,11 @@ captures/
 
 # Intellij
 *.iml
+.idea/codeStyles
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
+.idea/caches
 .idea/dictionaries
 .idea/libraries
 

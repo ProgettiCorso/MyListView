@@ -15,7 +15,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by aesys on 14/11/17.
+ * Created by Fabio Ziviello on 14/11/17.
  */
 
 
@@ -44,6 +44,7 @@ import java.util.List;
 
                     g.setK(position);
                     Intent openVisualizza = new Intent(getContext().getApplicationContext(), VisualizzaActivity.class);
+                    openVisualizza.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     getContext().getApplicationContext().startActivity(openVisualizza);
                 }
             });

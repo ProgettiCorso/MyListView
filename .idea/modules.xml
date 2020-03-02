@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyListView.iml" filepath="$PROJECT_DIR$/MyListView.iml" />
-      <module fileurl="file://D:\Corso\MyListView\MyListView.iml" filepath="D:\Corso\MyListView\MyListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GIT-MyListView.iml" filepath="$PROJECT_DIR$/GIT-MyListView.iml" group="MyListView" />
+      <module fileurl="file://D:/Corso/MyListView/MyListView.iml" filepath="D:/Corso/MyListView/MyListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/MyListView-app.iml" filepath="$PROJECT_DIR$/app/MyListView-app.iml" group="MyListView/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\Corso\MyListView\app\app.iml" filepath="D:\Corso\MyListView\app\app.iml" />
     </modules>
   </component>
 </project>
